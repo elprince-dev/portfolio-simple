@@ -10,7 +10,7 @@ const Header = () => {
         </div>
         <div className="navbar">
             {links.map(link =>(
-                <a key={link}>{link}</a>
+                <a key={link} className='link'>{link}</a>
             ))}
         </div>
     </div>

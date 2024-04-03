@@ -12,6 +12,24 @@
         gap: 80px;
         font-size: 1.2rem;
         font-weight: 400;
+        
+
+        .link{
+            position: relative;
+            border-radius: 1rem;
+            padding: 0.7rem 1rem;
+            width: 100%;
+            text-align: center;
+            transition: ease-in-out 0.5s;
+            cursor: pointer;
+
+            &:hover{
+                background-color: #dbdbdb;
+            }
+
+        }
+
+        
     }
 
     .name {
