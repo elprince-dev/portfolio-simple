@@ -1,6 +1,6 @@
 @use '../../utilities/variables';
 .container {
-    height: 6rem;
+    height: 6rem !important; 
     display: flex;
     justify-content: space-between;
     align-items: center;
