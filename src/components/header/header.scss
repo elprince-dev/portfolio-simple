@@ -9,7 +9,7 @@
         align-items: center;
         flex: 1;
         justify-content: flex-end;
-        gap: 80px;
+        // gap: 80px;
         font-size: 1.2rem;
         font-weight: 400;
         
@@ -22,6 +22,7 @@
             text-align: center;
             transition: ease-in-out 0.5s;
             cursor: pointer;
+            width: 11vw;
 
             &:hover{
                 background-color: #dbdbdb;
