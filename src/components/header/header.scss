@@ -1,4 +1,6 @@
+@use '../../utilities/variables';
 .container {
+    height: 6rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,7 +11,7 @@
         align-items: center;
         flex: 1;
         justify-content: flex-end;
-        // gap: 80px;
+        gap: 0.5vw;
         font-size: 1.2rem;
         font-weight: 400;
         
@@ -27,6 +29,10 @@
             &:hover{
                 background-color: #dbdbdb;
             }
+        &:last-child {
+            background-color: variables.$poseidon;
+            color: variables.$gainboro;
+        }
 
         }
 
