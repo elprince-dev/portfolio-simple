@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import Header from "@@/components/header/Header";
 import Intro from "@@/components/intro/Intro";
 import About from "@@/components/about/About";
+import Projects from "@@/components/projects/Projects";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Header />
       <Intro />
       <About />
+      <Projects />
     </div>
   );
 }
