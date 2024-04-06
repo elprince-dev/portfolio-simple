@@ -11,7 +11,7 @@ const Intro = () => {
 
         <div className="text">
             <p>
-            A Full Stack Developer with passion for problem-solving and collaboration who is equipped with expertise in JavaScript, Python, and a constant drive for continuous learning. Let's connect and share information and ideas!
+              Hi there! This is Mohammad, a passionate developer with experience in leadership and engineering and constant drive to learning. Let's connect and share experiences and ideas!
             </p>
         </div>
 
