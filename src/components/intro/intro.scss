@@ -1,3 +1,69 @@
-.container {
+@use '../../utilities/variables';
+
+.intro {
     height: calc(100vh - 6rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    gap: 3rem;
+    .name {
+        h1 {
+            font-weight: 400;
+            font-size: 3.5rem;
+        }
+    }
+
+    .text {
+        width: 50%;
+        p {
+            font-size: 1.2rem;
+            text-align: center;
+        }
+    }
+
+    .line {
+        height: 0.05rem;
+        background-color: variables.$poseidon;
+        width: 25rem;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        gap: 10rem;
+        
+        button {
+            width: 12rem;
+            height: 3rem;
+            border-radius: 1rem;
+            font-size: 1.3rem;
+            border: none;
+            background-color: variables.$poseidon;
+            color: variables.$gainboro;
+            font-weight: lighter;
+            transition: ease-in-out 0.5s;
+            &:hover {
+                background-color: variables.$gainboro;
+                color: variables.$poseidon;
+                border-color: variables.$poseidon;
+                border: solid;
+                border-width: 0.09rem;
+                cursor: pointer;
+            }
+            &:first-child {
+                background-color: variables.$gainboro;
+                color: variables.$poseidon;
+                border-color: variables.$poseidon;
+                border: solid;
+                border-width: 0.09rem;
+                &:hover {
+                    background-color: variables.$poseidon;
+                    color: variables.$gainboro;
+                    border-color: variables.$poseidon 
+                }
+            }
+            
+        }
+    }
 }

@@ -4,7 +4,7 @@ const Header = () => {
 
     const links = ["Home", "About", "Projects", "Contact"]
   return (
-    <div className="container">
+    <div className="header">
         <div className="name">
             <h3>El Prince</h3>
         </div>

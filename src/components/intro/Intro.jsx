@@ -2,7 +2,7 @@ import './intro.scss'
 
 const Intro = () => {
   return (
-    <div className='container'>
+    <div className='intro'>
         <div className="name">
             <h1>Mohammad El Prince</h1>
         </div>
@@ -15,7 +15,7 @@ const Intro = () => {
             </p>
         </div>
 
-        <div className="bottons">
+        <div className="buttons">
             <button>Projects</button>
             <button>Contact</button>
         </div>
