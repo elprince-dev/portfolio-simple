@@ -1,11 +1,11 @@
 const data = [
     {
         name: 'Portfolio',
-        imgURL: './portfolio.svg',
-        description: "",
+        imgURL: './portfolio.PNG',
+        description: "A digital showcase of my professional journey, highlighting my skills and projects.",
         techStack: ['html', 'css'],
-        github: "",
-        demo: "",
+        github: "https://github.com/mohamedmhussein/phase-1-project-portfolio",
+        demo: "https://mohamed-hussein.onrender.com/",
     }
 
 ]

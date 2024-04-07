@@ -1,4 +1,5 @@
 import './projects.scss'
+import data from '@@/utilities/projectList'
 
 const Projects = () => {
   return (
@@ -10,66 +11,23 @@ const Projects = () => {
         <div className="line"></div>
 
         <div className="list">
-          <div className="project">           
-              
-              <img src='./portfolio.PNG' />
-            
-              <h4>Portfolio</h4>
-
+          {data.map(project =>(
+            <div className="project" key={project.name}>
+              <img src={project.imgURL} alt= {project.name}/>
+              <h4>{project.name}</h4>
               <div className="line"></div>
-
-              <div className="desc"></div>
-
-              <div className="techStack"></div>
-
-            
-
-          </div>
-
-          <div className="project">           
-              
-            <img src='./portfolio.PNG' />
-              
-            <h4 className='title'>Portfolio</h4>
-
-            <div className="line"></div>
-
-            <p>
-              A digital showcase of my professional journey, highlighting my skills and projects. gfddgfdf dg dgd fggd ffdgfdg dgdfgdgd dfggdgdfgd dgxcvx vcxvcxv dffgd d vcbcb cv cbcbcb  cvb cvbcbcv fdgdggfd
-            </p>
-
-            <div className="techStack">
-              <img src='/html5.svg' alt='' />
-              <img src='/css.svg' alt='' />
+              <p>{project.description}</p>
+              <div className="techStack">
+                {project.techStack.map(tech => (
+                  <img key={tech} src={`/${tech}.svg`} alt='' />
+                ))}
+              </div>
+              <div className="links">
+                <a href={project.github} target='_blank'><img src='/github.svg' alt='github'  /></a>
+                <a href={project.demo} target='_blank'><img src='/link.svg' alt='link' href={project.demo} /></a>
+              </div>
             </div>
-
-            <div className="links">
-              <img src='/github.svg' alt='' />
-              <img src='/link.svg' alt='' />
-            </div>
-          </div>
-          <div className="project">           
-              
-            <img src='./portfolio.PNG' />
-              
-            <h4 className='title'>Portfolio</h4>
-
-            <div className="line"></div>
-
-            <p>
-              A digital showcase of my professional journey, highlighting my skills and projects. gfddgfdf dg dgd fggd ffdgfdg dgdfgdgd dfggdgdfgd dgxcvx vcxvcxv dffgd d vcbcb cv cbcbcb  cvb cvbcbcv fdgdggfd
-            </p>
-
-            <div className="techStack">
-              <img src='/html.svg' alt='' />
-              <img src='/css.svg' alt='' />
-            </div>
-
-            <div className="links">
-              <img src='/github.svg' alt='' />
-              <img src='/link.svg' alt='' />
-            </div>
-          </div>
+          ))}
         </div>
     </div>
   )
