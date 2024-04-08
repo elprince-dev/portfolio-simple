@@ -24,7 +24,7 @@ const Projects = () => {
               </div>
               <div className="links">
                 <a href={project.github} target='_blank'><img src='/github.svg' alt='github'  /></a>
-                <a href={project.demo} target='_blank'><img src='/link.svg' alt='link' href={project.demo} /></a>
+                <a href={project.live} target='_blank'><img src='/link.svg' alt='link' href={project.demo} /></a>
               </div>
             </div>
           ))}
