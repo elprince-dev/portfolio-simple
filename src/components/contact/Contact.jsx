@@ -27,7 +27,7 @@ const Contact = () => {
     }
 
   return (
-    <div className='contact'>
+    <div className='contact' id='Contact'>
         <h1>
             Contact
         </h1>

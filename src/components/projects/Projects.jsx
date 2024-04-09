@@ -3,7 +3,7 @@ import data from '@@/utilities/projectList'
 
 const Projects = () => {
   return (
-    <div className="projects">
+    <div className="projects" id='Projects'>
         <h1>
             Projects
         </h1>
