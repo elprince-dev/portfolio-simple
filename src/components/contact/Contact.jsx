@@ -18,17 +18,19 @@ const Contact = () => {
         <form>
             <div className='nameEmail'>
                 <label>
-                    Name: <br />
-                    <input type="text" required placeholder='Name' name='user_name' />
-                </label>
+                    Name: <br /></label>
+                    <input type="text" required placeholder='Name' name='user_name' placeholder ="Your name" />
+                
                 <label>
-                    Email Address: <br />
-                    <input type="email" required placeholder='Email' name='user_email' />
-                </label>
+                    Email Address: <br /></label>
+                    <input type="email" required placeholder='Email' name='user_email' placeholder ="Email address" />
+                
             </div>
             
             <div className='textArea'>
-                <textarea rows="8" placeholder='Message' name='message'/>
+            <label>
+                    Your Message: <br /></label>
+                <textarea rows="8" placeholder='Message' name='message' rows = '5'/>
             </div>
             <button>Submit</button>
             {error && 'Error! Please try again'}
