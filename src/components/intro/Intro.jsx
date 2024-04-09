@@ -11,7 +11,7 @@ const Intro = () => {
 
         <div className="text">
             <p>
-              Hi there! This is Mohammad, a passionate developer with experience in leadership and engineering and constant drive to learning. Let's connect and share experiences and ideas!
+              Hi there! This is Mohammad, a passionate developer with experience in leadership and engineering and constant drive to learning. Let&apos;s connect and share experiences and ideas!
             </p>
         </div>
 

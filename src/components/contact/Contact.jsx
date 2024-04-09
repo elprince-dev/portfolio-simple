@@ -37,10 +37,10 @@ const Contact = () => {
         <form ref={formRef} onSubmit={sendEmail}>
             <div className='nameEmail'>
                 <label>Name: <br /></label>
-                <input type="text" required placeholder='Name' name='user_name' placeholder ="Your name" />
+                <input type="text" required name='user_name' placeholder ="Your name" />
                 
                 <label>Email Address: <br /></label>
-                <input type="email" required placeholder='Email' name='user_email' placeholder ="Email address" />
+                <input type="email" required name='user_email' placeholder ="Email address" />
                 
             </div>
             
