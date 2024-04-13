@@ -20,10 +20,9 @@ const Intro = () => {
         </div>
         
 
-        {/* <div className="buttons">
-            <button>Projects</button>
-            <button>Contact</button>
-        </div> */}
+        <div className="social">
+
+        </div>
     </div>
   )
 }
