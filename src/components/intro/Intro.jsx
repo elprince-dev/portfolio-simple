@@ -14,14 +14,11 @@ const Intro = () => {
               Hi there! This is Mohammad, a passionate developer with experience in leadership and engineering and constant drive to learning. Let&apos;s connect and share experiences and ideas!
             </p>
         </div>
-
-        <div className="social">
-
-        </div>
         
 
         <div className="social">
-
+        <a href=''><img  src="./github.svg" alt='' className='github' /></a>
+        <a><img  src="./linkedin.svg" alt='' className='linkedin' /></a>
         </div>
     </div>
   )
