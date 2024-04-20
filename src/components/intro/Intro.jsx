@@ -17,8 +17,8 @@ const Intro = () => {
         
 
         <div className="social">
-        <a href=''><img  src="./github.svg" alt='' className='github' /></a>
-        <a><img  src="./linkedin.svg" alt='' className='linkedin' /></a>
+        <a href='https://github.com/mohamedmhussein'><img  src="./github.svg" alt='' className='github' /></a>
+        <a href='https://www.linkedin.com/in/mohamedhusseinofficial/'><img  src="./linkedin.svg" alt='' className='linkedin' /></a>
         </div>
     </div>
   )
