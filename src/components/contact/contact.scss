@@ -40,12 +40,13 @@
         button {
 
             @media (max-width: 1070px) {
-                margin: 0 40%;
-                bottom: -20%;
+                    margin: 0 38%;
+                    transform: translateY(400px);
+
             }
-            @media (max-width: 712px) {
+            // @media (max-width: 712px) {
                 
-            }
+            // }
             background-color: green;
             position: absolute;
             bottom: -40%;
