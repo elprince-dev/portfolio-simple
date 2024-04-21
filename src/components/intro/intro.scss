@@ -1,16 +1,21 @@
 @use '../../utilities/variables';
 
 .intro {
-    height: calc(100vh - 6rem);
+    height: 610px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 5rem;
     gap: 3rem;
+
+    @media (max-width:633px){
+        height: 700px;
+    }
     .name {
         h1 {
             font-weight: 400;
             font-size: 3.5rem;
+            text-align: center;
         }
     }
 

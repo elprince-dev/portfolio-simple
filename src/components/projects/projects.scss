@@ -12,6 +12,11 @@
         grid-template-rows: auto;
         width: 75vw;
         grid-gap: 6vw;
+
+        @media (max-width:860px){
+            display: flex;
+            flex-direction: column;
+        }
         .project {
             height: 40rem;
 
@@ -84,9 +89,6 @@
 
         }
 
-        .project2 {
-            background-color: green;
-        }
     }
 
     h1 {
