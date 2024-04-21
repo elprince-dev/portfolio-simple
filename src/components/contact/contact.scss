@@ -24,7 +24,6 @@
     form {
         display: flex;
         justify-content: center;
-        position: relative;
         gap: 5rem;
         width: 60;
         height: 250px;
@@ -44,9 +43,9 @@
                     bottom: -180%;
 
             }
-            position: absolute;
-            bottom:0;
-            // left: 50%;
+            position: relative;
+            top:80%;
+            right: 50%;
             margin: 0 auto;
             width: 12rem;
             height: 3rem;
