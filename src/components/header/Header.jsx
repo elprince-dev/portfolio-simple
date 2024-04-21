@@ -22,7 +22,7 @@ const Header = () => {
                 <FaTimes className='FaTimes'/>
             </button>
         </div>
-        <button>
+        <button className='navButton'>
             <FaBars onClick={showNavBar} className='FaBars'/>
         </button>   
     </div>

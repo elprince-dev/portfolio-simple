@@ -64,7 +64,7 @@
 
 }
 
-Button {
+.navButton {
     visibility: hidden;
     color: white;
     background-color: variables.$poseidon;
@@ -77,7 +77,7 @@ Button {
 }
 
 @media (max-width: 565px){
-    Button {
+    .navButton {
         visibility: visible;
         z-index: 2;
         position: absolute;
