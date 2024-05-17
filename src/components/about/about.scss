@@ -1,12 +1,13 @@
 @use '../../utilities/variables';
 @use '../../utilities/breakpoints';
 
-.about {
+.container {
+    font-size: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 500px;
-    gap: 2rem;
+    gap: 2em;
+    margin-bottom: 2em;
 
     .line {
         height: 0.05rem;
