@@ -4,7 +4,7 @@ import data from '@@/utilities/projectList'
 const Projects = () => {
   return (
     <div className="container" id='Projects'>
-        <h1>
+        <h1 className='title'>
             Projects
         </h1>
 
