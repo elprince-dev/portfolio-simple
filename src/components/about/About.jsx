@@ -12,9 +12,12 @@ const About = () => {
         </p>
         <div className="techStack">
           <h4>Tech Stack <br /></h4>
-          {skills.map(tech => (
-                  <img key={tech} src={`/${tech}.svg`} alt='' />
-                ))}
+          <div className='skills'>
+            {skills.map(tech => (
+                    <img key={tech} src={`/${tech}.svg`} alt='' />
+                  ))}
+          </div>
+          
         </div>
     </div>
   )
