@@ -28,19 +28,29 @@ const Contact = () => {
 
   return (
     <div className='contact' id='Contact'>
-        <h1>
-            Contact
-        </h1>
+        <div className="title">
+          <h1>
+              Contact
+          </h1>
+        </div>
 
         <div className="line"></div>
 
         <form ref={formRef} onSubmit={sendEmail}>
+            
+            
+          <div className="inputFields">
             <div className='nameEmail'>
+              <div className="name">
                 <label>Name: <br /></label>
                 <input type="text" required name='user_name' placeholder ="Your name" />
+              </div>
                 
-                <label>Email Address: <br /></label>
-                <input type="email" required name='user_email' placeholder ="Email address" />
+                <div className="email">
+                  <label>Email Address: <br /></label>
+                  <input type="email" required name='user_email' placeholder ="Email address" />
+                </div>
+                
                 
             </div>
             
@@ -48,11 +58,13 @@ const Contact = () => {
                 <label>Your Message: <br /></label>
                 <textarea name='message' rows = '5' placeholder = 'Your Message'/>
             </div>
-            <button>Submit</button>
-            <div className='error'>
-                {error && 'Error! Please try again'}
-            {success && 'Thank you! I will get back to you so soon!'}
-            </div>
+          </div>
+          
+          <button>Submit</button>
+          <div className='error'>
+              {error && 'Error! Please try again'}
+          {success && 'Thank you! I will get back to you so soon!'}
+          </div>
             
         </form>
     </div>
