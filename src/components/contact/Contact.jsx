@@ -41,12 +41,12 @@ const Contact = () => {
             
           <div className="inputFields">
             <div className='nameEmail'>
-              <div className="name">
+              <div className="nameOrEmail">
                 <label>Name: <br /></label>
                 <input type="text" required name='user_name' placeholder ="Your name" />
               </div>
                 
-                <div className="email">
+                <div className="nameOrEmail">
                   <label>Email Address: <br /></label>
                   <input type="email" required name='user_email' placeholder ="Email address" />
                 </div>
