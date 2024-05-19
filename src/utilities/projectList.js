@@ -22,8 +22,17 @@ const data = [
         techStack: ['react', 'javascript', 'html', 'css', ],
         github: "https://github.com/mohamedmhussein/gpt3",
         live: "https://gpt3-intro.onrender.com/",
+    },
+    {
+        name: 'Budget Tracker CLI',
+        imgURL: './budget-tracker.png',
+        description: "a Python-based command-line application designed to help you manage your finances and track your expenses easily. This tool utilizes the SQLAlchemy library for database management and provides various features to handle your financial data effectively.",
+        techStack: ['python'],
+        github: "https://github.com/mohamedmhussein/python-p3-cli-project-budget-tracker",
+        live: "",
     }
 
 ]
+
 
 export default data;
